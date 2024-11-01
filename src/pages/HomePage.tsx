@@ -29,14 +29,6 @@ export default function HomePage() {
           <Typography variant="h5" color="blue-gray" className="pl-3">
             Todo app
           </Typography>
-          <div className="flex items-center gap-2">
-            <Typography>user</Typography>
-            <Avatar
-              src="https://docs.material-tailwind.com/img/face-2.jpg"
-              alt="avatar"
-              variant="rounded"
-            />
-          </div>
         </CardHeader>
         <CardBody>
           <InputTodo />
